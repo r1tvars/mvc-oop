@@ -1,0 +1,121 @@
+body{
+  background-color: #f2f4f4 !important;
+}
+
+.red{
+  color: red;
+}
+
+.product-title{
+  margin-left: 10%;
+  position: absolute;
+  bottom: -9px;
+}
+
+.type-box{
+  width: 100%;
+  height: auto;
+  border: 1px #ccc solid;
+  margin-bottom: 25px
+}
+
+.grid{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  float: none;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 47px 5px;
+  padding-top: 8px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.custom{
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height:50px;
+}
+
+
+.form-margin{
+  margin-top: 20px;
+}
+
+.center{
+  background-color: #BFBFBF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 192px;
+  min-height: 108px;
+  border: 1px #E3AE57 solid;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.form-group__double{
+  display: flex;
+  gap: 10px;
+}
+
+.link{
+  margin: 20px;
+}
+
+.link a{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+@media(max-width:1200px) {
+	.grid{
+    margin: 20px 39px 5px !important;
+  }
+}
+
+@media(max-width:992px) {
+	.grid{
+    margin: 20px 30px 5px !important;
+  }
+}
+
+@media(max-width:767px) {
+	.grid{
+    margin: 20px 22px 5px !important;
+  }
+}
+
+.delete-btn, .save-btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #f2f4f4;
+  border: 1px solid black;
+  padding: 8px 32px;
+  text-align: center;
+  position: relative;
+  top: 14px !important;
+  margin-right: 10% !important;
+  float: right !important;
+}
+
+.delete-btn:hover{
+  cursor: pointer;
+  background-color: #7F0000;
+  color: white;
+}
+
+.save-btn:hover{
+  cursor: pointer;
+  background-color: #287f00;
+  color: white;
+}
+
+.text-danger{
+  flex: 1 1 0;
+}
